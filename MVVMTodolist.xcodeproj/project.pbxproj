@@ -16,10 +16,11 @@
 		48B5A05228448A5B0075460E /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B5A05128448A5B0075460E /* ItemModel.swift */; };
 		48B5A055284490F70075460E /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B5A054284490F70075460E /* ListViewModel.swift */; };
 		48B5A0572844D5150075460E /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B5A0562844D5150075460E /* NoItemsView.swift */; };
+		48B5A0592844E4970075460E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48B5A0582844E4960075460E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		48B5A03828447B9A0075460E /* MVVMTodolist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMTodolist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B5A03828447B9A0075460E /* Doing Things.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Doing Things.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48B5A03B28447B9A0075460E /* MVVMTodolistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMTodolistApp.swift; sourceTree = "<group>"; };
 		48B5A03F28447B9D0075460E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48B5A04228447B9D0075460E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -29,6 +30,7 @@
 		48B5A05128448A5B0075460E /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		48B5A054284490F70075460E /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		48B5A0562844D5150075460E /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
+		48B5A0582844E4960075460E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,7 @@
 		48B5A03928447B9A0075460E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				48B5A03828447B9A0075460E /* MVVMTodolist.app */,
+				48B5A03828447B9A0075460E /* Doing Things.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +88,7 @@
 				48B5A04E2844823F0075460E /* AddView.swift */,
 				48B5A04C28447F3F0075460E /* ListRowView.swift */,
 				48B5A0562844D5150075460E /* NoItemsView.swift */,
+				48B5A0582844E4960075460E /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -123,7 +126,7 @@
 			);
 			name = MVVMTodolist;
 			productName = MVVMTodolist;
-			productReference = 48B5A03828447B9A0075460E /* MVVMTodolist.app */;
+			productReference = 48B5A03828447B9A0075460E /* Doing Things.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -164,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48B5A0592844E4970075460E /* LaunchScreen.storyboard in Resources */,
 				48B5A04328447B9D0075460E /* Preview Assets.xcassets in Resources */,
 				48B5A04028447B9D0075460E /* Assets.xcassets in Resources */,
 			);
@@ -317,6 +321,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +330,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.karma.MVVMTodolist;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Doing Things";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -346,6 +351,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -354,7 +360,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.karma.MVVMTodolist;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Doing Things";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
